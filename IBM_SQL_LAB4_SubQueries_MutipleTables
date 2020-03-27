@@ -1,9 +1,0 @@
--- LAB4 Sub-queries and mutiple tables
-
-select * from employees where salary > (select avg(salary) from employees);
-select emp_id, salary, (select avg(salary) from employees) AS avgsalary FROM employees;     
-select * from (select emp_id, F_name, L_name from employees) AS emp4all;
-select * from employees where dep_id in (select dept_id_dep from departments where loc_id='L0002');     
-select dept_id_dep, dep_name from departments where dept_id_dep in (select dep_id from employees where salary > 7000);
-select * from employees E, departments D where E.dep_id = D.dept_id_dep;       
-select E.emp_id, D.dept_id_dep from employees E, departments D where E.dep_id = D.dept_id_dep;   
