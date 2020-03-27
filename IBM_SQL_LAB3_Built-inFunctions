@@ -29,3 +29,18 @@ select * from petsale;
 select distinct(animal), count(*) as quantity, round(max(saleprice)) as av_saleprice from petsale group by animal;
 select distinct(animal), count(*), sum(saleprice) as sum_sale from petsale group by animal order by sum_sale;
 select ID, quantity from petsale order by quantity DESC;
+
+select SUM(SALEPRICE) from PETSALE;
+select SUM(SALEPRICE) AS SUM_OF_SALEPRICE from PETSALE;
+select MAX(QUANTITY) from PETSALE; -- how can you see which ID the quantity belongs to?
+select AVG(SALEPRICE) from PETSALE;
+select AVG( SALEPRICE / QUANTITY ) from PETSALE where ANIMAL = 'Dog';
+select ROUND(SALEPRICE) from PETSALE;
+select LENGTH(ANIMAL) from PETSALE;
+select UCASE(ANIMAL) from PETSALE;
+select DISTINCT(UCASE(ANIMAL)) from PETSALE;
+select * from PETSALE where LCASE(ANIMAL) = 'cat';
+select DAY(SALEDATE) from PETSALE where ANIMAL = 'Cat';
+select COUNT(*) from PETSALE where MONTH(SALEDATE)='05';
+select (SALEDATE + 3 DAYS) from PETSALE;
+select (CURRENT DATE - SALEDATE) from PETSALE;
