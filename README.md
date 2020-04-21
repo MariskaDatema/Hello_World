@@ -1,8 +1,12 @@
 # Hello_World
-Portfolio of my courses in SQL and Python.
+Portfolio of assignments of courses in Data Science. 
 
-Contents: LAB files of the introductory courses:
+IBM Data Science Professional Certificate (on Coursera):
 
-- Databases and SQL for Data Science (by IBM on Coursera) (SQLDB0201)
+- Python for Data Science and AI (PY0101)
 
-- Python for Data Science and AI (by IBM on Coursera)(PY0101)
+- Databases and SQL for Data Science (SQLDB0201)
+
+- Data Analysis with Python
+
+- Data Visualization with Python
