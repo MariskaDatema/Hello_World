@@ -1,5 +1,9 @@
 # Hello_World
-Portfolio of assignments of courses in Data Science. 
+
+Hello World!
+
+I am developing my Data Science skills and this repository is a portfolio of assignments of my first courses in Data Science. 
+
 
 IBM Data Science Professional Certificate (on Coursera):
 
