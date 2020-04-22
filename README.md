@@ -11,6 +11,6 @@ IBM Data Science Professional Certificate (on Coursera):
 
 - Databases and SQL for Data Science (SQLDB0201)
 
-- Data Analysis with Python
+- Data Analysis with Python (DA0101)
 
 - Data Visualization with Python
